@@ -1,0 +1,256 @@
+/*Tercer Diseño NYSL web*/
+
+
+/*HEADER*/
+header {
+    background: url(imagenes/design2_image1.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-bottom: -20px;
+    margin-top: -30px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 40px;
+    left: 10px;
+    font-style: italic;
+    width: 70%;
+    text-indent: 20px;
+}
+
+#titulos {
+    color: white;
+    background-color: darkslategrey;
+    text-indent: 10%;
+    margin-right: -10px;
+    margin-left: -10px;
+    font-size: 15px;
+}
+
+
+/*BODY*/
+
+body {
+    font-family: sans-serif;
+    background-color: cadetblue;
+}
+
+
+#navigation {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+
+}
+
+.links a {
+    color: white;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    margin-right: 10px;
+    border-style: groove;
+    padding: 2px;
+}
+
+.links .activo {
+    background-color: greenyellow;
+    text-decoration: underline;
+}
+
+a:hover{
+  background-color: greenyellow;
+}
+
+#logo img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 210px;
+    left: 45%;
+    right: 5px;
+
+}
+
+#info
+/*section*/
+    {
+    left: 300px;
+    width: 70%;
+    padding-top: 30px;
+    position: absolute;
+}
+
+h3,
+h4 {
+    font-style: italic;
+    color: greenyellow;
+}
+
+p {
+    padding-left: 40px;
+}
+
+a.mail {
+    color: greenyellow;
+}
+
+#imagensoccer {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+/*RULES PAGE*/
+#rules {
+    width: 70%;
+    left: 15%;
+    ;
+    position: absolute;
+}
+
+#rules .rulestitle {
+    color: greenyellow;
+}
+
+#rules h4 {
+    font-weight: bold;
+    color: white;
+    font-style: normal;
+}
+
+#rules .bold h4 {
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+    margin: inherit;
+}
+
+/*GAME INFO PAGE*/
+
+/*TABLES (game info)*/
+tables {
+    border-collapse: collapse;
+}
+
+.tables h4 {
+    position: relative;
+    left: 10%;
+    font-size: 20px;
+}
+
+.game {
+    font-style: italic;
+    text-decoration: underline;
+    position: relative;
+    left: 10%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.tables th {
+    font-style: normal;
+    color: white;
+    background-color: darkslategray;
+}
+
+table#september,
+#october,
+#gameloc {
+    width: 80%;
+    margin-bottom: 30px;
+    position: relative;
+    left: 10%;
+}
+
+#gameloc td{
+    border: 0;
+    padding-right: 5px;
+}
+/*ADDITIONAL INFO (game info)*/
+.add-data {
+    position: relative;
+    left: 10%;
+}
+
+.add-data h4 {
+    color: white;
+    font-style: normal;
+}
+
+#phone {
+    float: left;
+    width: 50%;
+}
+
+#mail {
+    float: right;
+    width: 50%;
+}
+
+
+/*FORM STYLE*/
+
+form {
+    position: relative;
+    top: 100px;
+}
+
+fieldset {
+    border-color: white;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    margin-left: 15%;
+}
+
+fieldset legend{
+    color: greenyellow;
+    font-weight: bold;
+    font-family:sans-serif;
+    font-size: 25px;
+    
+}
+
+fieldset h5{
+    margin-bottom:5px;
+    font-size: 15px;
+}
+
+fieldset h6{
+    margin-top: 15px;
+    color: yellow;
+    font-style:normal;
+    font-size: 15px;
+}
+
+.players_info #text{
+  text-align: left;
+  
+}
+
+
+input {
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.submit {
+    background-color: darkslategrey;
+}
+
+.submit .btn {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover{
+  background-color: yellowgreen;
+}

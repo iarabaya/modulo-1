@@ -1,0 +1,95 @@
+/*Primer Diseño NYSL web*/
+
+/*HEADER*/
+header{
+  background: url(imagenes/design1_image1.jpg);
+	background-size:cover;
+  height: 400px;
+  margin-bottom: -20px;
+  margin-top: -30px;
+  margin-right: -10px;
+  margin-left: -5px;
+  
+}
+
+h1{
+  color:antiquewhite;
+  font-size: 50px;
+  left: 20px;
+}
+
+#titulos h2{
+  color: aliceblue;
+  background-color: black;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: -10px;
+  width: 100%;
+}
+
+/*BODY*/
+
+body {
+	font-family: sans-serif;
+	background-color:cadetblue; 
+}
+
+
+#navigation {
+	width: 20%;
+    position: absolute;
+    top: 480px;
+    left: 15px;
+	text-decoration: none;
+}
+
+.links a{
+	color:blue;
+	text-decoration: none;
+	list-style-type: none;
+	margin-bottom: 50px;
+	display: list-item;
+}
+
+
+ .links .activo {
+	text-decoration: underline;
+	color:antiquewhite; 
+}
+
+#logo img{
+	width: 150px;
+	height: 150px;
+  position: absolute;
+	top:330px;
+	right: 10%;
+}
+
+#info /*section*/ {
+  width: 80%;
+  float:right;
+  padding-top: 30px;
+}
+
+h4{
+	font-style: italic;
+}
+
+p{
+	padding-left: 40px;
+}
+
+#rules h1,h2,li{
+  width: 70%;
+  left: 100px;
+  float: right;
+}
+
+.rulesheading {
+  color: white;
+}
+
+
+#imagensoccer img{
+  display: none; 
+}

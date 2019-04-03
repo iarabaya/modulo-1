@@ -1,0 +1,99 @@
+/*Segundo Diseño NYSL web*/
+
+/*HEADER*/
+header{
+  background: url(imagenes/design2_image1.jpg);
+  background-size:cover;
+  height: 300px;
+  margin-bottom: -20px;
+  margin-top: -30px;
+  margin-right: -10px;
+  margin-left: -5px;
+  
+}
+
+h1{
+  color:antiquewhite;
+  font-size: 40px;
+  left: 10px;
+  font-style: italic;
+  width: 70%;
+}
+
+#titulos h2{
+  color:black;
+  background-color:cadetblue;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+
+/*BODY*/
+
+body {
+  font-family: sans-serif;
+  background-color:aliceblue; 
+}
+
+
+#navigation {
+  position: absolute;
+  right: 5px; 
+  top: 20px;
+	
+}
+
+.links a{
+  color:white;
+  background-color: cornflowerblue;
+  text-decoration: none;
+  margin-right: 10px;
+  border-bottom-style: groove;
+}
+
+.links .activo{
+  background-color: greenyellow;
+  text-decoration: underline;
+}
+
+#logo img{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 380px;
+  left: 20px;
+  right: 5px;
+  margin: 20px;
+}
+
+#info /*section*/ {
+  left: 240px;
+  width: 80%;
+  top: 340px;
+  position: absolute;
+}
+
+h4{
+  font-style: italic;
+}
+
+p{
+  padding-left: 40px;
+}
+
+#rules h1,h2,li{
+  width: 70%;
+  left: 100px;
+  float: right;
+}
+
+.rulesheading {
+  color: white;
+}
+
+
+#imagensoccer img{
+  display: none; 
+}
